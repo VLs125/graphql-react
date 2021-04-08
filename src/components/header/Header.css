@@ -1,0 +1,10 @@
+.navbar{
+    display:flex;
+    justify-content:start;
+    align-items: start;
+    list-style:none;
+    text-decoration: none;
+}
+.navbar-element{
+    margin: 10px;
+}
