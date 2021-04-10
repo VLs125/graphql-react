@@ -1,10 +1,13 @@
 import React from 'react';
-import {Post} from '../../common/interfaces/post'
+import {Post} from "../../common/interfaces/post";
 
-const PostsGridItem: React.FC<{posts:Post}> = () => {
+const PostsGridItem: React.FC<{post:Post}> = ({post}:{post:Post}) => {
+
     return (
         <div>
-            PostsItem
+            <p>{post.id}</p>
+            <p>{post.title}</p>
+            <div>{post.body}</div>
         </div>
     )
 }
